@@ -1,0 +1,8 @@
+## rbenv
+rbenvHome="$HOME/.rbenv/bin"
+if [ -e "$rbenvHome" ]
+then
+        export PATH="$PATH:$rbenvHome"
+       	eval "$(rbenv init -)"
+fi
+
